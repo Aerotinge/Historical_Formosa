@@ -1,0 +1,29 @@
+﻿# Formosa - FRS
+frs_paljaljaus_template = {
+    # Paljaljaus Garuljigulj
+    first_name = Paljaljaus
+    last_name = "Garuljigulj"
+    historical = yes
+    ruler = yes
+    birth_date = 1797.11.28
+    culture = cu:formosan
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        cautious
+    }
+}
+frs_tokitok_template = {
+    # Cuqicuq Garuljigulj
+    first_name = Cuqicuq
+    last_name = "Garuljigulj"
+    historical = yes
+    heir = yes
+    birth_date = 1831.3.17
+    culture = cu:formosan
+    interest_group = ig_landowners
+    ideology = ideology_traditionalist
+    traits = {
+        trait_child
+    }
+}

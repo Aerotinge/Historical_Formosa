@@ -1,0 +1,38 @@
+﻿FRS = { # Formosa
+	dynamic_country_name = {
+		name = dyn_c_lonc_kjauw
+		adjective = dyn_c_lonc_kjauw_adj
+		
+		is_main_tag_only = yes
+		priority = 0
+		
+		trigger = {
+			scope:actor = {
+				country_has_primary_culture = cu:formosan
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_tai_oan_bin_tsu_kok
+		name = dyn_c_tai_oan_bin_tsu_kok_adj
+		
+		is_main_tag_only = yes
+		priority = 4
+		
+		trigger = {
+			c:CHI = {
+				OR = {
+					coa_def_monarchy_flag_trigger = yes
+					coa_def_theocracy_flag_trigger = yes
+				}
+			}
+			coa_def_chinese_ensign_trigger = yes
+			OR = {
+				country_has_primary_culture = cu:han
+				country_has_primary_culture = cu:min
+				country_has_primary_culture = cu:hakka
+				country_has_primary_culture = cu:yue
+			}
+		}
+	}
+}

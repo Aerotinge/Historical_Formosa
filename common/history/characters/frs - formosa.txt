@@ -1,0 +1,11 @@
+﻿CHARACTERS = {
+	c:FRS = {
+		create_character = {
+			template = frs_paljaljaus_template
+		}	
+
+		create_character = {
+			template = frs_tokitok_template
+		}
+	}
+}

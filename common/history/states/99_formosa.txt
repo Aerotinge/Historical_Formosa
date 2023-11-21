@@ -1,0 +1,15 @@
+﻿STATES = {
+	s:STATE_FORMOSA = {
+		create_state = {
+			country = c:CHI
+			owned_provinces = { xE73B31 x6645CF x6DAB21 xAEA2D8 x7070E0 }
+		}
+		create_state = {
+			country = c:FRS
+			owned_provinces = { xBB27F6 x44797F x9A5066 }
+		}
+		add_homeland = cu:formosan
+		add_homeland = cu:min
+		add_homeland = cu:hakka
+	}
+}

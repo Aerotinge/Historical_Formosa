@@ -1,0 +1,12 @@
+{
+  "name" : "Historical Formosa",
+  "id" : "",
+  "version" : "",
+  "supported_game_version" : "1.5.*",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

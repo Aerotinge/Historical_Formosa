@@ -1,0 +1,25 @@
+﻿FRS = { # FORMOSA
+	flag_definition = {
+		coa = FRS_subject_CHI
+		priority = 20
+		trigger = {
+			c:CHI = {
+				OR = {
+					coa_def_monarchy_flag_trigger = yes
+					coa_def_theocracy_flag_trigger = yes
+				}
+			}
+			coa_def_chinese_ensign_trigger = yes
+			OR = {
+				country_has_primary_culture = cu:han
+				country_has_primary_culture = cu:min
+				country_has_primary_culture = cu:hakka
+				country_has_primary_culture = cu:yue
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRS
+		priority = 1
+	}
+}

@@ -1,0 +1,60 @@
+﻿POPS = {
+	s:STATE_FORMOSA = {
+		region_state:CHI = {
+			# in 1811, there's in total 1,944,737 sino pops
+			# in 1786, the total_chinese:formosan = 20:1
+			# in 1926, min:hakka:yue = 0.806:0.151:0.043
+			create_pop = {
+				culture = min
+				size = 1567458
+			}
+			create_pop = {
+				culture = hakka
+				size = 293655
+			}
+			create_pop = {
+				culture = yue # Teochew
+				size = 83624
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 492
+			}
+			create_pop = {
+				culture = formosan
+				size = 97240
+			}
+		}
+		region_state:FRS = {
+			# in 1893, there's in total 26,000 pops
+			# in late 19th century, the sino pops:formosan = 1:10
+			create_pop = {
+				culture = hakka
+				size = 433
+			}
+			create_pop = {
+				culture = min
+				size = 866
+			}
+			create_pop = {
+				culture = hakka # gà-li "puppet-savages"
+				religion = animist
+				size = 433
+			}
+			create_pop = {
+				culture = min # thóo-senn-á "local-born(bastard)"
+				religion = animist
+				size = 866
+			}
+			create_pop = {
+				culture = formosan
+				size = 26000
+			}
+			create_pop = {
+				culture = filipino # placeholder for Ivatan people in Pongso no Tao
+				religion = animist
+				size = 430
+			}
+		}
+	}
+}

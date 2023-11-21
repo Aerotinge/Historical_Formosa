@@ -1,0 +1,99 @@
+﻿# Due to Formosa's role as the exodus homeland(Urheimat) of the Austronesian language family,
+# This small island has even more Austronesian entropy than all the rest of Austronesian put together,
+# which is polynesian+melanesian+micronesian+hawaiian+maori+batak+dayak+filipino+moro+javan+moluccan
+# But this is Vic, let's try some cheap Paradox way of setup
+
+#Atayalic(Northern formosan, Atayal+Seediq+Babuza+Saisiyat+...)
+#Bunun(Southern formosan, Bunun+Paiwan+Puyuma+...)
+#Sirayaic(Eastern formosan, Siraya+Kavalanic+Ketagalan+Amis-Sakizaya+Puyuma+Makatao+Taivoan+...)
+#Tsouic(Central formosan, Tsouic+Rukai)
+
+formosan={ # Using Southern formosan as the holotype
+	color= hsv { 0.272 0.75 0.54 }
+	religion = animist
+	traits = { southeast_asian_heritage malay_culture }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		# Seqalu
+		Paljaljaus Cuqicuq Cudjui Karinalaw Paljalim Yeesuk
+		# Paiwan
+		Adulumau Ariwanes
+		Babuy Budek
+		Iring
+		Kalipang Kutang Kuyan
+		Lais
+		Paudull Pararawa Pawti Pudrangiyan
+		Sagarang Semangal
+		Trunga
+		Udung Umuy Uratr
+		# Bunun
+		Alima Anakuy
+		Babasang
+		Garagar
+		Hidiw
+		Idiyu Irubay
+		Kelalraw
+		Maliyang
+		Panaway
+		Sailan
+		Ukak
+	}
+	female_common_first_names = {
+		# Seqalu
+		# Paiwan
+		Abimuy Aliwan Aseban
+		Benaw Bulay
+		Dalisun Dariru
+		Gadukuy Gagay Gintaraw
+		Ikaus Insay Iyusay
+		Kawanusang Kulilay Kulilraw
+		Laimu Limuy
+		Naceko Nuliku
+		Panay Pinik
+		Sabagaran Saytuwan Serumun
+		Taamana Tanawas Trapang Tjuku
+		Urunay Untan
+		Wawa
+		# Bunun
+		Tuku
+	}
+	common_last_names={
+		# Seqalu
+		Cjligul
+		Garuljigulj
+		Mavaliw
+		Ruvaniyaw
+		# Paiwan
+		Daliyalrep
+		Karangilan Kuwavangas
+		Paaliwan Paelrabang Pinudalanan Purapuran
+		Sawawan
+		Tjuleng Tuzingla
+		# Bunun
+		Arasis
+		Baduk
+		Kubaw Kulungan
+		Pakawyan Pasaraad
+		Raera
+		Sapayan
+		Tabelrengan
+	}
+	
+	regal_last_names = {
+		# Paiwan
+		Garulrigulr
+		Tatiyam
+		Miakan
+		Purburbuwan
+	}
+
+	ethnicities = {
+		5 = south_east_asian
+		1 = asian
+	}
+	graphics = east_asian
+}
